@@ -19,7 +19,8 @@ public class BaseTest {
 	
 	public void createReport()
 	{
-		report=commonFunctions.setupResult();		
+		report=commonFunctions.setupResult();
+		System.out.println("Hello baseTest");
 	}
 	
 	public void luanchApp()
